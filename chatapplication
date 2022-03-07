@@ -1,0 +1,12 @@
+  58  git clone https://github.com/gopal1409/springboot-chat-app.git
+   59  ls
+   60  apt install maven
+   61  ls
+   62  cd springboot-chat-app/
+   63  ls
+   64  mvn clean package
+   ls
+   cd target
+   ls
+   cd ..
+   

@@ -1,0 +1,12 @@
+7  kubectl run my-first-pod --image stacksimplify/kubenginx:1.0.0
+    8  kubectl get pod
+    9  kubectl describe pod my-first-pod
+#how the pod is deployed
+ 17  kubectl get pod
+   18  kubectl get pod my-first-pod
+   19  kubectl describe pod my-first-pod
+#how to apply an manifest or yaml file to your kubernetes cluster
+72  nano pod.yaml
+   73  kubectl apply -f pod.yaml
+   74  kubectl get pod
+   75  kubectl describe pod myapp
